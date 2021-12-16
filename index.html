@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Magdalena Frackiewicz
+    Project: A Tour Around Poland
+	
+	All rights reserved.
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Krakow</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+        background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+        padding: 50px;
+        text-align: center;
+        background: white;
+        background-image: url("krakpan2.jpg");
+        
+    }
+    
+    .header h1 {
+        font-size: 50px;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+        float: left;
+        width: 75%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+    }
+    
+    /* image */
+    .image1 {
+        background-color: #aaa;
+        background-image: url("k4.jpg");
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+        }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+        .topnav a {
+        float: none;
+        width: 100%;
+        }
+    }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Krakow</h1>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+    <div class="card">
+        <h2>Krakow</h2>
+        <div class="image1" style="height: 200px;"></div>
+        <p>Krakow is a city in the southern Poland. Krakow is the second-largest and one of the oldest cities in PolandKrakow is known for well-preserved medivalcore 
+            and Jewish quarter. Krakow was the official capital of Poland until 1596 and has traditionally been one of the leading centres of Polish academic, 
+            economic, cultural and artistic life.In 1978, the entire old town of Krakow was named a UNESCO World Heritage Site. The Main Market Square was built 
+            in the 13th century and it is the largest medival market square in Europe. St. Marys Basilica contain most elaborate Ghotic altarpiece in Europe. 
+            Wawel Castle and Wawel Cathedral are must see attractions. In 1978, Karol Wojtyla, archbishop of Krakow, was elevated to the papacy as 
+            Pope John Paul II-the first non-Italian pope in 455 years </p>
+        
+    </div>
+    <div class="card">
+      </div>
+        <h2>Restaurants</h2>
+        <div class="row">
+            <div class="column">
+              <img src="rogal.jpg" alt="nines" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="poledwica.jpg" alt="pierogi" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="kremowka.jpg" alt="vege" style="width:100%">
+            </div>
+        <p><b>1. Kogel Mogel:</b></p>
+        Right next to the Krakow plantations, a step from the Small Market Square and St. Mary's Basilica, Kogel Mogel "turned" - a restaurant where the culinary 
+        art of Polish cuisine is shown in a different dimension. Here, where the interiors are full of embroidered Krakow obwarzanki, where painted golden-leaved 
+        chanterelles lay golden eggs, and the impressive wine cellar combined with a wonderful garden abounds in wines from the best vineyards in the world, you can 
+        taste traditional Polish dishes in new, unusual arrangements.  
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="https://kogel-mogel.pl/">Kogel Mogel</a></li>
+        <p><b>2. Dobra Kasza Nasza</b></p>
+        significant part of the menu was based on recently underestimated but typically Polish groats. We bake it in a specially designed oven, and serve it with a 
+        sizzling one with salad and sauce. Everyone will find a taste for themselves: is it super-classic buckwheat with bacon and prunes, or a light fusion of 
+        pearl barley with curry chicken and black olives, to vegetarian carrot with ginger. Popular dishes from the kitchen - such as the iconic grilled chicken in 
+        dried tomatoes or delicious ribs with pears - are also served with potatoes.
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="http://www.dobrakaszanasza.pl/">Kasza</a></li>
+        <p><b>3. Smakolyki</b></p>
+        Big, but cosy place just next to old buildings of Jagiellonian University, couple of minutes walk from Main Market Square. You can try real Polish food, as 
+        it is prepared in traditional Polish houses by our moms.
+        <ul style="list-style-type:square; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:130%;color: rgb(110, 36, 76);"></ul>
+        <li>For more information, menue, and prices visit: <a href="http://www.smakolyki.eu/"></a>Smakolyki</li>
+    </div>
+    </div>
+    <div class="rightcolumn">
+    <div class="card">
+        <div class="flag" style="height:50px;"></div>
+    </div>
+    <div class="card">
+        <h3>Places to visit</h3>
+        <ul>
+            <li>Wieliczka Salt Mine</li>
+            <li>Wawel Cathedral </li>
+            <li>Rynek Glowny</li>
+            <li>Wawel Royal Castle</li>
+            <li>St. Mary's Basilica</li>
+            <li>Kosciol Mariacki</li>
+            <li>Sukiennice</li>
+            <li>Stare Miasto</li>
+            <li>Planty Krakowskie</li>
+            <li>Wzgorze Wawelskie</li>
+            <li>Rynek Podgorski</li>
+        </ul>
+    </div><br/>
+
+    <div class="gallery">
+        <a target="_blank" href="krakow.jpg">
+          <img src="krakow.jpg" alt="Cinque Terre" class="center">
+        </a>
+        <div class="desc">Krakow</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="salt.jpg">
+          <img src="salt.jpg" alt="Forest" class="center">
+        </a>
+        <div class="desc">Salt Mine</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="wawel.jpg">
+          <img src="wawel.jpg" alt="Northern Lights" class="center">
+        </a>
+        <div class="desc">Wawel Royal Castle</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="planty.jpg">
+          <img src="planty.jpg" alt="Mountains" class="center">
+        </a>
+        <div class="desc">Planty Krakowskie</div>
+      </div>
+
+</body>
+</html>
